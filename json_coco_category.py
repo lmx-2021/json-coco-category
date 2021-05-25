@@ -44,7 +44,7 @@ for a, b in zip(x,y1):
     plt.text(a,b+0.05,'%.0f' %b,ha = 'center',va = 'bottom',fontsize = 10)
     
 for a, b in zip(x,y2):
-    plt.text(a+bar_width,b+0.5,'%.0f' %b,ha = 'center',va = 'bottom',fontsize = 10)
+    plt.text(a+bar_width,b+0.05,'%.0f' %b,ha = 'center',va = 'bottom',fontsize = 10)
     
 #柱状图绘制
 p1 = plt.bar(x, height=y1, width=0.3,label='image',tick_label=str1)
